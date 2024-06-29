@@ -58,39 +58,42 @@ To generate a `requirements.txt` file that includes all the currently installed 
 
 ## Folder Structure
 
-The repository is organized into difficulty levels, and each level is further divided into common topics:
+The directory is organized into three main difficulty levels: `easy`, `medium`, and `hard`. Each level contains various categories of algorithm problems, and each category includes both the problem implementations and their corresponding tests.
 
-    openalgocode/
-    ├── easy/
-    │   ├── arrays/
-    │   ├── strings/
-    │   ├── linked_lists/
-    │   ├── trees/
-    │   ├── sorting/
-    │   ├── searching/
-    │   ├── dynamic_programming/
-    │   └── miscellaneous/
-    ├── medium/
-    │   ├── arrays/
-    │   ├── strings/
-    │   ├── linked_lists/
-    │   ├── trees/
-    │   ├── graphs/
-    │   ├── sorting/
-    │   ├── searching/
-    │   ├── dynamic_programming/
-    │   └── miscellaneous/
-    └── hard/
-        ├── arrays/
-        ├── strings/
-        ├── linked_lists/
-        ├── trees/
-        ├── graphs/
-        ├── sorting/
-        ├── searching/
-        ├── dynamic_programming/
-        └── miscellaneous/
-
+```plaintext
+openalgocode/
+├── easy/
+│   ├── arrays/
+│   │   ├── tests/
+│   │   │   └── test_arrays.py
+│   ├── strings/
+│   ├── linked_lists/
+│   ├── trees/
+│   ├── sorting/
+│   ├── searching/
+│   ├── dynamic_programming/
+│   └── miscellaneous/
+├── medium/
+│   ├── arrays/
+│   ├── strings/
+│   ├── linked_lists/
+│   ├── trees/
+│   ├── graphs/
+│   ├── sorting/
+│   ├── searching/
+│   ├── dynamic_programming/
+│   └── miscellaneous/
+└── hard/
+    ├── arrays/
+    ├── strings/
+    ├── linked_lists/
+    ├── trees/
+    ├── graphs/
+    ├── sorting/
+    ├── searching/
+    ├── dynamic_programming/
+    └── miscellaneous/
+    
 Each folder contains Python scripts that solve specific problems. The naming convention for the scripts is `problem_name.py` to make it easier to identify the challenges.
 
 ## Test Frameworks

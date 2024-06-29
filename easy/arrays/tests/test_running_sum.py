@@ -1,5 +1,5 @@
 import pytest
-from running_sum import Solution
+from easy.arrays.running_sum import Solution
 
 
 @pytest.fixture
